@@ -85,7 +85,7 @@ git clone git@github.com:dir/libname.git
 ```
 
 
-2Go to project  folder
+2. Go to project  folder
 
 ```shell
 cd ./libname
@@ -166,7 +166,7 @@ If you want Conan to use the new ABI for the default profile, run:
 
    $ conan profile update settings.compiler.libcxx=libstdc++11 default
 
-Or edit '/home/alexander/.conan/profiles/default' and set compiler.libcxx=libstdc++11
+Or edit '~/.conan/profiles/default' and set compiler.libcxx=libstdc++11
 
 ************************************************************************************
 ```
